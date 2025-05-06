@@ -18,7 +18,6 @@ def configure_gemini():
 
 # Function to extract JSON from the response text
 def extract_json_from_response(text):
-    # Remove Markdown-style code blocks
     match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
     if match:
         return match.group(1)
