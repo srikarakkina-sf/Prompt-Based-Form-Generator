@@ -11,7 +11,7 @@ previous_schemas = []
 
 # Configure the Gemini API
 def configure_gemini():
-    api_key = "AIzaSyAknCIcGyzAhTWE8SISHB7p00Ntkv1p7UE"
+    api_key = ""
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable not set.")
     genai.configure(api_key=api_key)
