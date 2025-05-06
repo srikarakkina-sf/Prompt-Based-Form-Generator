@@ -47,6 +47,8 @@ This is an AI-powered Streamlit application that dynamically generates forms fro
 ## 🧪 Example Prompts
 
 * *"Create a form that collects the user's full name, email address, and password (along with a confirmation password). Include a field to input the user's age, allowing for values between 18 and 100. Add a checkbox for users to opt into a newsletter subscription, and provide an option for them to select their preferred meal choice from a list of options. Finally, include a section where users can upload a file if necessary, though this is optional. In addition, add a phone number field that validates typical phone formats, a date picker to allow users to select their date of birth, and a dropdown menu for selecting their country of residence from a predefined list. and add his father name and father name and mother name also"*
+![Form-generator example screenshot](https://raw.githubusercontent.com/srikarakkina-sf/Prompt-Based-Form-Generator/main/examples/i.jpeg)
+
 
 ---
 
